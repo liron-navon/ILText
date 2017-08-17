@@ -8,6 +8,17 @@
 
 <br />
 
+>**You can use the dedicated prefabs to make it easier for you:**
+
+**IL_Text**: will convert text automatically if you enable the automaticallyConvertText feature in the IL manager, and add hebrew as one of the RTL languages you wish to support.
+
+**IL_InputField**: will convert input field text automatically to readable hebrew, use the ILManager.ReverseString(String text) to revert the text, since unity only render it in a wierd way, but the text is legit.
+
+
+**ILText3D**: will convert 3D text automatically if you enable the automaticallyConvertText feature in the IL manager, and add hebrew as one of the RTL languages you wish to support.
+
+<br />
+
 **Inspector public variables**
 
 >**Auto Align** 
