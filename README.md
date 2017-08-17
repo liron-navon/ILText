@@ -35,6 +35,7 @@ This is mostly for testing, but it can give you better controll if you want the 
  
 >** Public static Methods**
 
+
 **public static bool SetTextUI** (Text textObject, string newText, bool shouldBeAligned -optional, TextAnchor specificAlignment -optional)
 use this static method to assign RTL text to a Text object, you can use specific alignment and even make specific texts not aligned if you wish.
 
