@@ -33,7 +33,7 @@ This is mostly for testing, but it can give you better controll if you want the 
  bool IsRtl: will tell you if the script consider the device as RTL, although please use the static method IsThisDeviceLanguageRTL(), it will be safer and is used internally.
  
  
->** Public static Methods**
+>**Public static Methods**
 
 
 **public static bool SetTextUI** (Text textObject, string newText, bool shouldBeAligned -optional, TextAnchor specificAlignment -optional)
