@@ -1,27 +1,17 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
+[RequireComponent(typeof(Text))]
 public class ILText : MonoBehaviour {
 
-    // Use this for initialization
-    private Text t;
-
-    public bool alignTextOnStart = true;
+    private Text uiText;
 
     void Start() {
 
-        if (alignTextOnStart) {
+        uiText = GetComponent<Text>();
 
-            t = GetComponent<Text>();
-
-            if (!t) {
-                Debug.Log("Please put me on a UI.Text object, i'm currently on: " + this.gameObject.name);
-            }
-
-            if (ILManager.isRtl) {
-                ILManager.SetText(t, t.text);
-            }
-
+        if (ILManager.IsRtl) {
+            ILManager.SetTextUI(uiText, uiText.text);
         }
     }
 }
