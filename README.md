@@ -4,7 +4,7 @@
 
 **Important:**
 
->**You must add the IL Manager, this script is holding the main functions to change the unity gibberish to normal hebrew, and it holds verious settings:**
+>**You must add the ILManager script to the scene, this script is holding the main functions to change the unity gibberish to normal hebrew, and it holds verious settings:**
 
 <br />
 
@@ -19,7 +19,7 @@
 
 <br />
 
-**Inspector public variables**
+**ILManager Inspector public variables**
 
 >**Auto Align** 
 
