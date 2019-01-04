@@ -1,6 +1,6 @@
 # ILText
 
-**Please notice that currently the text can only be converted at runtime, hopefully this will be improved in the newr future**
+**Please notice that currently the text can only be converted at runtime, hopefully this will be improved in the near future**
 
 **Important:**
 
